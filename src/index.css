@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animación de flores */
+.flower {
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.8;
+  animation: floatFlower 8s ease-in-out infinite alternate;
+}
+
+.flower1 {
+  background-image: url('/flores1.png');
+}
+
+.flower2 {
+  background-image: url('/flores2.png');
+  animation-delay: 4s;
+}
+
+@keyframes floatFlower {
+  0% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(5deg); }
+  50% { transform: translateY(-5px) rotate(-5deg); }
+  75% { transform: translateY(-15px) rotate(10deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
