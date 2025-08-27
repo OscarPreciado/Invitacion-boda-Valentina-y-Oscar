@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Invitación Boda Valentina & Oscar</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación Boda Valentina & Oscar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flower flower1"></div>
+  <div class="flower flower2"></div>
+  <audio src="cancion.mp3" autoplay loop controls class="audio-control"></audio>
+  <header class="text-center">
+    <h1>Valentina & Oscar</h1>
+    <p>"El tiempo nos enseñó que el amor verdadero no se busca, se construye..."</p>
+  </header>
+  <section class="countdown text-center">
+    <div class="time-box"><span id="days">0</span><br>Días</div>
+    <div class="time-box"><span id="hours">0</span><br>Horas</div>
+    <div class="time-box"><span id="minutes">0</span><br>Minutos</div>
+    <div class="time-box"><span id="seconds">0</span><br>Segundos</div>
+  </section>
+  <section class="text-center">
+    <h2>Ceremonia</h2>
+    <p>⛪ Parroquia Sagrada Familia</p>
+    <a href="https://maps.app.goo.gl/GvMXy7voe6GC34PX9" target="_blank">Ver ubicación</a>
+  </section>
+  <section class="text-center">
+    <h2>Recepción</h2>
+    <p>🏡 Finca La Cabaña, vereda San Marino Combia</p>
+    <a href="https://maps.app.goo.gl/2kSDxsXVYJQLr59j8" target="_blank">Ver ubicación</a>
+  </section>
+  <section class="itinerary">
+    <h2>Itinerario</h2>
+    <ul>
+      <li>⛪ 2:00 PM - Ceremonia católica</li>
+      <li>🍷 6:30 PM - Recepción</li>
+      <li>🎤 7:00 PM - Protocolo</li>
+      <li>🍽️ 9:00 PM - Cena</li>
+      <li>🎶 10:30 PM - Fiestuki</li>
+    </ul>
+  </section>
+  <section class="gifts">
+    <h2>Sugerencia de regalo</h2>
+    <p>“Creemos que los regalos más grandes no se envuelven: se sienten en abrazos, sonrisas y buenos deseos. Si además quieren bendecirnos con un detalle, cualquier muestra de cariño será bienvenida con alegría.”</p>
+  </section>
+  <section class="confirmation text-center">
+    <h2>Confirmación de asistencia</h2>
+    <p>Esta invitación es válida para los pases asignados a su nombre. Al confirmar, por favor indíquenos cuántas personas asistirán.</p>
+    <a href="https://wa.me/573147443995?text=Hola%20Valentina%20y%20Oscar,%20confirmo%20mi%20asistencia%20a%20su%20boda." target="_blank">Confirmar por WhatsApp</a>
+  </section>
+  <footer class="text-center">
+    <p>Con amor ❤️ Valentina & Oscar</p>
+    <p>27 de diciembre de 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>

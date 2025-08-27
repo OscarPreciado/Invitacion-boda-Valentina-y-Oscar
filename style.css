@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #cce7ff, #ffffff, #d4f1dc);
+  color: #333;
+}
+.text-center { text-align: center; }
+header h1 { font-size: 3em; color: #1a73e8; margin: 0.5em 0; }
+header p { font-style: italic; margin-bottom: 2em; }
+.audio-control { display: block; margin: 1em auto; }
+.countdown { display: flex; justify-content: center; gap: 1em; margin-bottom: 2em; }
+.time-box { background: rgba(255,255,255,0.7); padding: 1em; border-radius: 1em; min-width: 70px; }
+section { margin: 2em 1em; }
+section h2 { color: #1a73e8; }
+.itinerary ul, .gifts p { max-width: 600px; margin: 0 auto; text-align: left; }
+a { color: #1a73e8; text-decoration: underline; }
+footer { background: #1a73e8; color: #fff; padding: 1em; }
+.flower { position: absolute; width: 100px; height: 100px; background-size: contain; background-repeat: no-repeat; opacity: 0.8; animation: floatFlower 8s ease-in-out infinite alternate; }
+.flower1 { background-image: url('flores1.png'); top: 0; left: 0; }
+.flower2 { background-image: url('flores2.png'); bottom: 0; right: 0; animation-delay: 4s; }
+@keyframes floatFlower { 0% { transform: translateY(0px) rotate(0deg); } 25% { transform: translateY(-10px) rotate(5deg); } 50% { transform: translateY(-5px) rotate(-5deg); } 75% { transform: translateY(-15px) rotate(10deg); } 100% { transform: translateY(0px) rotate(0deg); } }
